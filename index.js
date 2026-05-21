@@ -16,11 +16,12 @@ const PORT = process.env.PORT || 3000
 app.get("/", (req, res) => {
     res.send("Hello World")
 })
-// http:
-// localhost:3000
+// http:localhost:3000
 app.use("/api/v1/users",userRoute)
 // first api 
 // http://localhost:8000/api/v1/users/register
+// http://localhost:8000/api/v1/users/login
+
 databaseConnection().then(() => app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`)
 }))

@@ -1,0 +1,4 @@
+// http:localhost:3000
+// http://localhost:8000/api/v1/users/register // signin post api 
+// http://localhost:8000/api/v1/users/login // login post api 
+// http://localhost:8000/api/v1/users/logout // logout get api
